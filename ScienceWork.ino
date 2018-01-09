@@ -1,4 +1,3 @@
-
 #include "pitches.h"
 
 int greenPin = 9;
@@ -41,6 +40,7 @@ void setup() {
     analogWrite(redPin,0);
     analogWrite(bluePin,0);
   }
+  i++;
   }
 }
 
